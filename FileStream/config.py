@@ -30,7 +30,7 @@ class Server:
     PORT = int(env.get("PORT", 8080))
     BIND_ADDRESS = str(env.get("BIND_ADDRESS", "0.0.0.0"))
     PING_INTERVAL = int(env.get("PING_INTERVAL", "1200"))
-    HAS_SSL = str(env.get("HAS_SSL", "0").lower()) in ("1", "true", "t", "yes", "y")
+    HAS_SSL = str(env.get("HAS_SSL", "True").lower()) in ("1", "true", "t", "yes", "y")
     NO_PORT = True  # Set this to True to exclude the port number in the URL
     FQDN = str(env.get("FQDN", BIND_ADDRESS))
     URL = "http{}://{}/".format(
