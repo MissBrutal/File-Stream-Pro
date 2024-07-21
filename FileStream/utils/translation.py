@@ -71,8 +71,8 @@ class BUTTON(object):
         ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home',
             InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')
-        ]]
-    )
+          ]
+        ])
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
