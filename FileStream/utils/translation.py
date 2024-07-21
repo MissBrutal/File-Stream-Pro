@@ -70,9 +70,9 @@ class BUTTON(object):
             InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
         ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home',
-            InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')
-          ]
-        ])
+            InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')]
+        ]
+    )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
@@ -81,6 +81,6 @@ class BUTTON(object):
             InlineKeyboardButton('🍁 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🌿 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ', url=f'https://instagram.com/mrbrutal_141')
         ],[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home')
-        ]]
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home')]
+        ]
     )
