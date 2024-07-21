@@ -15,21 +15,23 @@ class LANG(object):
 ● ʟɪɴᴋ ᴡᴏɴ'ᴛ ᴇxᴘɪʀᴇ ᴛɪʟʟ ᴍʏ ᴀᴅᴍɪɴ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ꜰɪʟᴇ
 ❗Nᴏᴛᴇ: Gᴇɴᴇʀᴀᴛɪɴɢ Lɪɴᴋ Oғ Aᴅᴜʟᴛ Oʀ Pᴏʀɴᴏɢʀᴀᴘʜɪᴄ Cᴏɴᴛᴇɴᴛ Usɪɴɢ Tʜɪs Bᴏᴛ Is  Sᴛʀɪᴄᴛʟʏ Pʀᴏʜɪʙɪᴛᴇᴅ 🚫 Iғ Yᴏᴜ'ʟʟ Dᴏ Yᴏᴜ Wɪʟʟ Bᴇ Bᴀɴɴᴇᴅ.
 
-ᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴍᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs❤️
-🦋 ᴍᴀᴅᴇ ʙʏ @MisterBrutal </b>"""
+ᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs❤️
+🍁 Bᴏᴛ Bʏ @MisterBrutal </b>"""
 
     HELP_TEXT = """
 <b>- ᴀᴅᴅ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ</b>
 <b>- sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴅᴏᴄᴜᴍᴇɴᴛ ᴏʀ ᴍᴇᴅɪᴀ</b>
 <b>- ɪ'ʟʟ ᴘʀᴏᴠɪᴅᴇ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ</b>\n
-<b>🔞 ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ Is sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ.</b>\n
-<i><b> ʀᴇᴘᴏʀᴛ ʙᴜɢs <a href='https://Instagram.com/mrbrutal_141'>Bʀᴜᴛᴀʟ 😎</a></b></i>"""
+
+<i><b> Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ <a href='https://Instagram.com/mrbrutal_141'>Bʀᴜᴛᴀʟ 😎</a></b></i>
+🦋 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ @Ig_1Venom"""
 
     ABOUT_TEXT = """
 <b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b>\n
 <b>✦ Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ : <a href='https://Instagram.com/mrbrutal_141' >Bʀᴜᴛᴀʟ 😎</a></b>
 <b>✦ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Ig_1Venom'>Bʀᴜᴛᴀʟ 😎</a></b>\n
-🦋 ᴍᴀᴅᴇ ʙʏ @MisterBrutal
+
+🦋 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ @Ig_1Venom
 """
 
     STREAM_TEXT = """
@@ -53,30 +55,34 @@ class LANG(object):
 
 class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
-        [[
+        [[  InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
+            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
+        ],[
             InlineKeyboardButton('🍁 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')
-        ][  InlineKeyboardButton('🔥 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ', callback_data='close'),
-            InlineKeyboardButton('❌ ᴄʟᴏsᴇ', callback_data='close')
-        ],
-            [InlineKeyboardButton("🦋 ᴊᴏɪɴ ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
+        ],[
+            InlineKeyboardButton("🦋 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
-            InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('❌ ᴄʟᴏsᴇ', callback_data='close'),
-        ],
-            [InlineKeyboardButton("🦋 ᴊᴏɪɴ ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
-        ]
+            InlineKeyboardButton('🌿 ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ & ꜰᴇᴇᴅʙᴀᴄᴋ', url=f'https://t.me/Brutal_Support')
+        ],[  
+            InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
+            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
+        ],[
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', url=f'https://t.me/'),
+            InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')
+        ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
+            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
+        ][  
             InlineKeyboardButton('🍁 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('❌ ᴄʟᴏsᴇ', callback_data='close'),
-        ],
-            [InlineKeyboardButton("🦋 ᴊᴏɪɴ ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
-        ]
+            InlineKeyboardButton('🌿 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ', url=f'https://instagram.com/mrbrutal_141')
+        ],[
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home')
+        ]]
     )
