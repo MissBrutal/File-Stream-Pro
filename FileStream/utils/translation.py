@@ -69,7 +69,7 @@ class BUTTON(object):
             InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
             InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
         ],[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home',
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
             InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')]
         ]
     )
