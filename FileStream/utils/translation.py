@@ -12,9 +12,7 @@ class LANG(object):
 ● ɪ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʜɪɢʜ sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 
 
 ❗Nᴏᴛᴇ: Gᴇɴᴇʀᴀᴛɪɴɢ Lɪɴᴋ Oғ Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛ ɪs Sᴛʀɪᴄᴛʟʏ Pʀᴏʜɪʙɪᴛᴇᴅ 🚫
-
-ᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs❤️
-  🍁 Bᴏᴛ Bʏ @MisterBrutal </b>"""
+ </b>"""
 
     HELP_TEXT = """
     <b>Rᴇᴀᴅ Mʏ Fᴇᴀᴛᴜʀᴇs 📝
@@ -30,9 +28,10 @@ class LANG(object):
     ABOUT_TEXT = """
 <b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b>\n
 <b>✦ Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ : <a href='https://Instagram.com/mrbrutal_141' >Bʀᴜᴛᴀʟ 😎</a></b>
-<b>✦ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Ig_1Venom'>Bʀᴜᴛᴀʟ 😎</a></b>
+<b>✦ Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Ig_1Venom'>Bʀᴜᴛᴀʟ 😎</a></b>
 
-<b>🦋 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ @Ig_1Venom </b>
+<b>ᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs❤️
+  🍁 Bᴏᴛ Bʏ @MisterBrutal </b>
 """
 
     STREAM_TEXT = """
