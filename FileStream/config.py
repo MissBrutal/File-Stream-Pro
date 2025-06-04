@@ -7,7 +7,7 @@ class Telegram:
     API_ID = int(env.get("API_ID","21257327"))
     API_HASH = str(env.get("API_HASH","1235c1fe45ebc4968d9e23bc93440549"))
     BOT_TOKEN = str(env.get("BOT_TOKEN"))
-    OWNER_ID = int(env.get('OWNER_ID', '5192808332'))
+    OWNER_ID = int(env.get('OWNER_ID', '6318243977'))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL'))
     UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "MRBrutal_Bots"))
