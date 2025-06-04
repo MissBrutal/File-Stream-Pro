@@ -31,7 +31,7 @@ class LANG(object):
 <b>✦ Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Ig_1Venom'>Bʀᴜᴛᴀʟ 😎</a></b>
 
 <b>ᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs❤️
-  🍁 Bᴏᴛ Bʏ @MisterBrutal </b>
+  🍁 Bᴏᴛ Bʏ @MrBrutal_Bots </b>
 """
 
     STREAM_TEXT = """
@@ -55,8 +55,8 @@ class LANG(object):
 
 class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
-        [[  InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
-            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
+        [[  InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MrBrutal_Bots'),
+            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/MrBrutal_Support')
         ],[
             InlineKeyboardButton('🍁 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -66,10 +66,10 @@ class BUTTON(object):
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🌿 ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ & ꜰᴇᴇᴅʙᴀᴄᴋ', url=f'https://t.me/Brutal_Support')
+            InlineKeyboardButton('🌿 ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ & ꜰᴇᴇᴅʙᴀᴄᴋ', url=f'https://t.me/MrBrutal_Support')
         ],[  
-            InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
-            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
+            InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MrBrutal_Bots'),
+            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/MrBrutal_Support')
         ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
             InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ', callback_data='about')]
@@ -77,8 +77,8 @@ class BUTTON(object):
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MisterBrutal'),
-            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/Brutal_Support')
+            InlineKeyboardButton('🔥 ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ ', url=f'https://t.me/MrBrutal_Bots'),
+            InlineKeyboardButton('🦋 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ', url=f'https://t.me/MrBrutal_Support')
         ],[  
             InlineKeyboardButton('🍁 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🌿 ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ', url=f'https://instagram.com/mrbrutal_141')
