@@ -171,14 +171,6 @@ async def is_user_authorized(message):
         if user_id == Telegram.OWNER_ID:
             return True
 
-        if not (user_id in Telegram.AUTH_USERS):
-            await message.reply_text(
-                text="Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.",
-                parse_mode=ParseMode.MARKDOWN,
-                disable_web_page_preview=True
-            )
-            return True
-
     return True
 
 #---------------------[ USER EXIST ]---------------------#
