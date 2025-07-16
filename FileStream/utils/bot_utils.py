@@ -177,7 +177,7 @@ async def is_user_authorized(message):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True
             )
-            return False
+            return True
 
     return True
 
